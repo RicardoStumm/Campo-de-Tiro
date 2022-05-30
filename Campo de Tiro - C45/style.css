@@ -1,0 +1,36 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+canvas{
+    display:block;
+}
+
+.resetButton {
+    width:95px;
+    height:95px;
+    background-color: white;
+    background-image: url('./assets/reset.png');
+    background-size: cover;
+    border: 1px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+    z-index: 100000;
+  }
+
+
+@font-face {
+    font-family: 'VegasDesert';
+    src: url('./assets/VegasDesert.ttf') format('truetype');
+}
+
+.playText{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-family: 'VegasDesert';
+    text-align: center;
+    text-shadow: -1px 1px 0 #ffffff,
+                  1px 1px 0 #ffffff,
+                  1px -1px 0 #ffffff,
+                  -1px -1px 0 #ffffff;
+
+  }
